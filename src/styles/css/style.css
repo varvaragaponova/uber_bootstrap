@@ -171,6 +171,7 @@ nav {
 }
 
 .label {
+  position: relative;
   margin: 0 auto;
   height: 24px;
   width: 112px;
@@ -181,24 +182,40 @@ nav {
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
+  z-index: 2;
+}
+.label_white {
+  background-color: #fff;
+  color: #000;
 }
 
 .title {
+  position: relative;
   margin-bottom: 0;
   margin-top: 38px;
   color: #222222;
   font-size: 38px;
+  line-height: 38px;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
+  z-index: 2;
+}
+.title_white {
+  color: #fff;
 }
 
 .subtitle {
+  position: relative;
   margin-top: 19px;
+  color: #222222;
   font-size: 17px;
   font-weight: 400;
-  color: #222222;
   text-align: center;
+  z-index: 2;
+}
+.subtitle_white {
+  color: #fff;
 }
 
 .mobile {
@@ -255,4 +272,33 @@ nav {
   margin: 0 auto;
   border-radius: 100%;
   cursor: pointer;
+}
+
+.choice {
+  position: relative;
+  min-height: 895px;
+  padding: 57px 0 138px 0;
+  background: url("../../../assets/img/mobile_bg.png") center center/cover no-repeat;
+}
+.choice_img {
+  position: relative;
+  display: block;
+  margin: 56px auto 0 auto;
+  z-index: 2;
+}
+.choice_descr {
+  text-align: center;
+  color: #222222;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.choice .black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 499px;
+  width: 100%;
+  background-color: #070716;
+  z-index: 1;
 }/*# sourceMappingURL=style.css.map */
