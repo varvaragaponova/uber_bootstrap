@@ -141,7 +141,7 @@ nav {
   align-items: center;
   margin-top: 35px;
 }
-.reasons_block_round {
+.reasons_round {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -151,16 +151,16 @@ nav {
   background-color: #1eacc7;
   border-radius: 100%;
 }
-.reasons_block_descr {
+.reasons_descr {
   width: 343px;
 }
-.reasons_block_descr_subtitle {
+.reasons_descr_subtitle {
   line-height: 21px;
   color: #1eacc7;
   font-size: 17px;
   font-weight: 400;
 }
-.reasons_block_descr_text {
+.reasons_descr_text {
   color: #202020;
   font-size: 15px;
   font-weight: 300;
