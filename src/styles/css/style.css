@@ -182,7 +182,7 @@ nav {
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
-  z-index: 2;
+  z-index: 1;
 }
 .label_white {
   background-color: #fff;
